@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    background-color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem;
+    align-items: center;
+    border: 2px solid lightblue;
+    border-radius: 1rem;
+}
+
+#seuraava{
+  padding: 1rem;
+  width: 150px;
+}
+
+#kysymys { background-color: lightgreen; }
+.vaihtoehto { background-color: lightblue; }
+
+.vaihtoehto, #kysymys{
+    border-radius: 15px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.vaihtoehto:hover {
+    background-color: lightskyblue;
+}
